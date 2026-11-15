@@ -1,5 +1,5 @@
 import './App.css'
-import { Recipes } from './components/Recipes/Recipes'
+import { Home } from './components/Home';
 import CuisineOnboarding from './components/UserCuisinePreference/CuisineOnBoarding';
 import { useCuisinePreference } from './components/UserCuisinePreference/UserCuisinePreference';
 
@@ -11,7 +11,7 @@ function App() {
 
     return (
       <>
-        <Recipes></Recipes>
+        <Home></Home>
       </>
     )
 }
